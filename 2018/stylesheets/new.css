@@ -3,7 +3,7 @@
 }
 
 .bg-image{
-    background-image: url("/webshogi/2018/images/photo2.png");
+    background-image: url("../images/photo2.png");
     background-size: cover;
     -moz-background-size: cover;
 }
