@@ -4257,7 +4257,8 @@ dialog[open] {
   font-size: 1.875rem;
 }
 .side-nav li a:not(.button) {
-  display: block;
+  /* display: block; */
+  padding: 10px;
   color: #1e2327;
 }
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {

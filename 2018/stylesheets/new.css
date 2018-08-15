@@ -10,7 +10,7 @@
   
 .bg-mask {
     height: 100%;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.6);
 }
 
 .event_site {
@@ -39,7 +39,7 @@
 }
 
 .sidebar {
-    margin-right: 30px;
+    margin-right: 10%;
     float: right;
     border: 2px solid rgba(0, 0, 0, 0.1);
     width: 300px;
@@ -51,6 +51,7 @@
     position:relative; 
     overflow:hidden; 
     z-index:10;
+
 }
 
 .event_site img {
@@ -76,8 +77,8 @@
     .sidebar {
         width: 550px;
         float: left;
-        margin-top: 45px;
-        margin-left: 170px;
+        margin-top: 75px;
+        margin-left: 20%;
     }
 }
 
@@ -88,10 +89,13 @@
     }
 
     .sidebar {
-        width: 350px;
+        width: auto;
         float: left;
-        margin-top: -30px;
-        margin-left: 10px;
+        margin-top: -10px;
+        margin-left: 18%;
     }
 
+    .h1 {
+        font-size: 60px;
+    }
 }
