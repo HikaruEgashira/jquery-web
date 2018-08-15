@@ -1,0 +1,83 @@
+.wrap {
+    overflow: hidden; 
+}
+
+.bg-image{
+    background-image: url("/webshogi/2018/images/photo2.png");
+    background-size: cover;
+    -moz-background-size: cover;
+}
+  
+.bg-mask {
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+}
+
+.event_site {
+    position: relative;  bottom: 200px; left: 95%;
+}
+
+.bg-line {
+}
+
+.sidebar {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: auto;
+}
+
+.wrapper {
+    float: left;
+    margin: 0;
+    width: 100%;
+    margin-left: -330px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content {
+    margin-left: 330px;
+}
+
+.sidebar {
+    margin-right: 30px;
+    float: right;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.map {
+    position:relative; 
+    overflow:hidden; 
+    z-index:10;
+}
+
+@media (max-width: 1000px) {
+    .wrapper, .content, .sidebar,  {
+         float: left;
+         width: auto;
+    }
+
+    .event_site {
+        position: relative; left: 70%; right: 50%; top: 30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .sidebar {
+        width: 550px;
+        float: left;
+        margin-top: 45px;
+        margin-left: 170px;
+    }
+}
+
+@media (max-width: 700px) {
+    .sidebar {
+        width: 300px;
+        float: left;
+    }
+
+}
