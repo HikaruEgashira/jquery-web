@@ -4256,6 +4256,17 @@ dialog[open] {
   margin: 0 0 0.4375rem 0;
   font-size: 1.875rem;
 }
+
+/* 改変 */
+@media (max-width: 700px) {
+  .side-nav li {
+    font-size: 1.175rem;
+    margin-right: 5%;
+  }
+}
+
+
+
 .side-nav li a:not(.button) {
   /* display: block; */
   padding: 10px;
