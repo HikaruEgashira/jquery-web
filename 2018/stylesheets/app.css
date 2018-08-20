@@ -7309,7 +7309,7 @@ input[type="submit"].inverse-dark:active {
 /*Websymphony.net header*/
 body nav.navigation {
   /* background: #3e444e; */
-  background: #3e444e;
+  background: rgba(62,68,78,0.9);
   border-bottom: 1px solid #343a44;
   clear: both;
   position: relative;
